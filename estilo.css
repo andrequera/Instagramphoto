@@ -1,0 +1,75 @@
+body {
+    margin : 0px 0px 0px 0px;
+    background-color: grey;
+    width: 100%;
+    height: 100%;
+    font-family: 'Shadows Into Light', cursive;
+    
+}
+  #menu {
+    background-color:white;
+    padding: 10px; 
+/* me movio el menu para arriba pegadito */
+  }
+
+#menu h1{
+width: 50%;
+margin: 0 auto;
+/* Lo esstoy colocando en referencia a contenido que y esta listo */
+font-weight: bolder;
+
+}
+  #contenido {
+    background-color:white;
+    width:50%;
+    height: 100%;
+    margin: 50px auto;
+   
+        
+
+    /* text-align: center;
+    para centrar el contenido o texto dentro del contenido */
+
+  }
+
+  img{
+    display: inline-block;
+    height: 60%;
+    width: 100%;
+    /* toma el 100 % de contenido */
+    
+  }
+
+  /* .menuifoto{
+  text-align: center;    
+  } */
+  /* Me centra el texto dentro de mi contenido */
+
+.menuifoto h2{
+    padding: 10px;
+    font-weight: bolder;
+    width: 80%;
+    float: left;
+}
+
+.num {
+  float: right;
+  width: 10%;
+}
+
+.num h4{
+  padding: 15px;
+}
+
+.menuafoto h3{
+    padding: 20px;
+}
+ 
+
+
+.menuifoto h2 {
+  display: inline;
+}
+.num h4{
+  display: inherit;
+}
